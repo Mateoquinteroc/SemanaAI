@@ -1,10 +1,11 @@
 
 const Boton = () => {
   const handleClick = () => {
-    window.location.href = 'https://www.ejemplo.com'; // Cambia la URL a la que desees
+    window.location.href = 'https://www.youtube.com/@CentroDeCienciaFJC/streams'; // Cambia la URL a la que desees
   };
 
   const buttonStyle = {
+    font-family: "Advent Pro", sans-serif,
     position: 'fixed',
     top: '10px',
     right: '10px',
@@ -19,7 +20,7 @@ const Boton = () => {
 
   return (
     <button style={buttonStyle} onClick={handleClick}>
-      Canal Youtube
+      Life
     </button>
   );
 };
