@@ -5,7 +5,6 @@ const Boton = () => {
   };
 
   const buttonStyle = {
-    font-family: "Advent Pro", sans-serif,
     position: 'fixed',
     top: '10px',
     right: '10px',
