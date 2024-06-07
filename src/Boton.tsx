@@ -5,6 +5,7 @@ const Boton = () => {
   };
 
   const buttonStyle = {
+    font-family: "Advent Pro", sans-serif,
     position: 'fixed',
     top: '10px',
     right: '10px',
@@ -19,7 +20,7 @@ const Boton = () => {
 
   return (
     <button style={buttonStyle} onClick={handleClick}>
-      Life
+      Live
     </button>
   );
 };
