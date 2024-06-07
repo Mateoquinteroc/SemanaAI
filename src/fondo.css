@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Desactiva el scroll horizontal */
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .container-fondo {
@@ -12,4 +13,36 @@ body, html {
     width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
     height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
     display: block; /* Elimina el espacio en línea abajo de la imagen */
+}
+
+.butonContainer{
+    display: flex;
+    align-items: center;
+}
+
+.buttonStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #c4302b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.logoyou {
+    top: 10px;
+    z-index: 1000;
+    fill: #ffffff;
+    width: 30px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right:10px; /* Espacio entre el logo y el texto */
 }
