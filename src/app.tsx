@@ -1,6 +1,6 @@
 import './app.css'
 import Fondo from './Fondo'
-//import Boton from './Boton'
+import Boton from './Boton'
 
 export function App() {
 
